@@ -29,6 +29,7 @@ Synthetic biology in plants for bioplastic manufacturing is an innovative approa
 - Example: Genetic engineering of Hevea brasiliensis rubber biosynthesis genes in model plants.
 
 #### Examples of engineering strategies 
+
 #### 1. Expression of bacterial phaABC in chloroplasts/plastids and seeds.
 This seminal and impactful study revealed that the expression of the three-gene PHB pathway in plastids or chloroplasts can yield significant polymer production. Transplastomic expression is appealing due to plastids' capacity for elevated transgenic expression, maternal confinement, and proximity to acetyl-CoA pools. Significantly, optimised gene expression and plastid targeting in tobacco resulted in elevated amounts of PHB via plastid-encoded PHB pathways, without compromising fertility [1].
 

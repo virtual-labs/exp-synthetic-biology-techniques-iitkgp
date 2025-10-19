@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which of the following elements is NOT typically part of a bacterial operon?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Enhancer",
+        "b": "Operator",
+        "c": "Promoter",
+        "d": "Structural genes"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Plasmids are useful in genetic engineering because they:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Are always linear DNA molecules",
+        "b": "Cannot replicate independently",
+        "c": "Carry selectable markers and replicate autonomously",
+        "d": "Are components of ribosomes"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Gibson Assembly is a molecular technique used to:",
+      "answers": {
+        "a": "Separate DNA fragments",
+        "b": "Mutate specific genes",
+        "c": "Seamlessly join multiple DNA fragments",
+        "d": "Synthesize mRNA"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following best describes a chassis organism?",
+      "answers": {
+        "a": "A cell optimized to host synthetic circuits",
+        "b": "A plasmid backbone",
+        "c": "A viral vector",
+        "d": "A non-viable mutant strain"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Codon optimization is done to:",
+      "answers": {
+        "a": "Increase GC content",
+        "b": "Match codon usage to the host organism",
+        "c": "Create random mutations",
+        "d": "Reduce protein expression"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

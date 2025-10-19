@@ -2,36 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Orthogonal gene expression systems are advantageous because they:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Use host regulatory elements",
+        "b": "Function independently of host control",
+        "c": "Depend on host metabolism",
+        "d": "Are highly mutable"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. A synthetic pathway that converts fatty acids to hydrocarbons typically requires engineering:",
+      "answers": {
+        "a": "Only the ribosome",
+        "b": "Enzymes in β-oxidation reversal",
+        "c": "CRISPR interference machinery",
+        "d": "Riboswitch control elements"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The term genetic insulation refers to:",
+      "answers": {
+        "a": "Preventing unintended interactions between genetic modules",
+        "b": "Blocking plasmid replication",
+        "c": "Terminating transcription",
+        "d": "Isolating genomic DNA from cytoplasm"
+      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. Quorum sensing is often used in synthetic biology for:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "DNA repair",
+        "b": "Cell-to-cell communication",
+        "c": "Protein degradation",
+        "d": "Ribosome synthesis"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The ultimate goal of synthetic biology is best summarized as:",
+      "answers": {
+        "a": "Modifying existing genes",
+        "b": "Understanding natural biology",
+        "c": "Designing and constructing novel biological systems with predictable behavior",
+        "d": "Producing transgenic organisms"
       },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
