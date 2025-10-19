@@ -14,3 +14,6 @@
 6.	Somleva M.N., Peoples O.P., Snell K.D. (2012) PHA Bioplastics, Biochemicals, and Energy from Crops. Plant Biotechnol. J. doi: 10.1111/pbi.12039
 
 7.	Tania Palmeiro-Sánchez, Vincent O’Flaherty, Piet N.L. Lens. Polyhydroxyalkanoate bio-production and its rise as biomaterial of the future. Journal of Biotechnology. Volume 348, 2022, Pages 10-25, ISSN 0168-1656. [https://doi.org/10.1016/j.jbiotec.2022.03.001](https://doi.org/10.1016/j.jbiotec.2022.03.001).
+
+8. Karen Bohmert-Tatarev, Susan McAvoy, Sean Daughtry, Oliver P. Peoples, Kristi D. Snell, High Levels of Bioplastic Are Produced in Fertile Transplastomic Tobacco Plants Engineered with a Synthetic Operon for the Production of Polyhydroxybutyrate    , Plant Physiology, Volume 155, Issue 4, April 2011, Pages 1690–1708, [https://doi.org/10.1104/pp.110.169581](https://doi.org/10.1104/pp.110.169581)
+
