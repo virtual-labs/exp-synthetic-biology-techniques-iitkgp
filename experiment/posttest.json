@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The ultimate goal of synthetic biology is best summarized as:",
+      "question": "5. The ultimate goal of synthetic biology is best summarized as:",
       "answers": {
         "a": "Modifying existing genes",
         "b": "Understanding natural biology",
@@ -59,6 +59,66 @@
       },
      
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. A key difference between genetic engineering and synthetic biology is that synthetic biology",
+      "answers": {
+        "a": "Uses only natural genes",
+        "b": "Focuses on modularity and standardization of biological parts",
+        "c": "Avoids computational tools",
+        "d": "Works only in microbes"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7.Which component acts as the “logic processor” in a synthetic gene circuit?",
+      "answers": {
+        "a": "Reporter gene",
+        "b": "Promoter–transcription factor interactions",
+        "c": "Selectable marker",
+        "d": "Ribosome"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. A chassis plant for synthetic biology should ideally have",
+      "answers": {
+        "a": "Large genome size",
+        "b": "Poor regeneration ability",
+        "c": "Well-characterized genetics and easy transformation",
+        "d": "High mutation rates"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Dynamic control of gene expression is preferred in synthetic systems because it",
+      "answers": {
+        "a": "Eliminates metabolic burden",
+        "b": "Allows fine-tuned, context-dependent responses",
+        "c": "Stops all metabolic activity",
+        "d": "Prevents protein synthesis"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Biosafety in synthetic crop plants mainly focuses on",
+      "answers": {
+        "a": "Increasing mutation frequency",
+        "b": "Preventing unintended gene flow and ecological impact",
+        "c": "Eliminating all transgenes",
+        "d": "Suppressing plant growth"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

@@ -26,6 +26,9 @@ function selecthetrelogousexp() {
     
     document.getElementById("btn4").disabled = false;
     document.getElementById("btn3").disabled = true;
+
+    $('#shownote').modal('show');
+    $('.modal-body').text('Deciding on the experimental motive is the most crucial step. It will determine what techniques and procedures need to be applied to fulfil the experimental goal. Here, our motive is to produce PHB in a plant. Hence, our selection of genes needs to be such that they will code for proteins/enzymes that will convert existing metabolites into PHBs.');
     document.getElementById("btn4").setAttribute("onclick", "selectexpgene()");
     
 }
@@ -46,6 +49,8 @@ function selectligatetarget() {
     
     document.getElementById("btn6").disabled = false;
     document.getElementById("btn5").disabled = true;
+     $('#shownote').modal('show');
+    $('.modal-body').text('These selected genes (either isolated or synthesised chemically) are inserted into a plant expression plasmid by a series of restriction digestion and ligation reactions. Then the recombinant plasmid was used to transform the plant calli by gene gun method. The putative transgenic plants will be screened by suitable antibiotic selection marker.');
     document.getElementById("btn6").setAttribute("onclick", "generun()");
     
 }
@@ -111,4 +116,11 @@ function btn12click() {
     
     document.getElementById("btn12").disabled = true;
    
+}
+
+
+function hidenotemsg() {
+    document.getElementById("showalerttxt").style.display = "none";
+    document.getElementById("showalerttxt").classList.remove("show");
+
 }

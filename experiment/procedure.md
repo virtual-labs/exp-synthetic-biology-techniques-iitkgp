@@ -58,5 +58,5 @@ A step-by-step procedure is given for the production of PHBs in tobacco plant by
 - Lines showing almost all green seedlings are considered fully homoplasmic.
 
 <div align="center">
-<img src="images/IMG_0438.jpeg" width="50%">
+<img src="images/IMG_0438.jpeg" style="max-width:100%; height:auto;">
 </div>
