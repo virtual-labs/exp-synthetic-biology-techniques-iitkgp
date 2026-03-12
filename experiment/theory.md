@@ -9,7 +9,7 @@ Synthetic biology in plants for bioplastic manufacturing is an innovative approa
 
 
 <div align="center">
-<img src="images/IMG_2344.jpeg" width="50%">
+<img src="images/IMG_2344.jpeg" style="max-width:100%; height:auto;">
 <p>This diagram represents a basic concept of synthetic biology for the production of bioplastic in plants.</p>
 </div>
 
