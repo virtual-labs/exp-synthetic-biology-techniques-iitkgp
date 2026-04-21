@@ -1,13 +1,242 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Add CSS at the head of HTML file -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- Your code goes here-->
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+						<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+							onclick="restartexp()">
+							Re-Do the Experiment</button>
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+							<li>Click on the button "Select host plant" to display plant. </li>
+							<li>Click on the button "Choose experiment motive".</li>
+							<li>Click on the button "Selection of genes for heterologous expression"</li>  </li>
+							<li>Click on the button "Choose suitable plant expression vectors for the expression of target genes". </li>
+							
+							<li>Click on the button "Ligate the target genes in the plant expression vector".</li>
+							<li>Click on the button "Transform explant/plant callus with genetic construct via biolistics (gene gun)". </li>
+							<li>Click on the button "Select and regenerate plant from transformed plant callus/explant". </li>
+							<li>Click on the button "Isolate genomic DNA from transformed plant".
+							</li>
+							<li>Click on the button "PCR using gene specific primers from transformed plant genomic DNA". </li>
+							<li>Click on the button "Transfer the confirmed transgenic plants to soil".
+							</li>
+							<li>Click on the button "Extract PHBs from confirmed transgenic plants grown in soil.".</li>
+							<li>CLick on the button "Quantify the PHBs by GC-MS".</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+
+
+					</div>
+
+					<div class="card-body">
+
+						<table class="table table-bordered">
+							<tr><td>Step 1</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn1" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;"
+										onclick="showselectedplant();">
+										Select host plant</button>
+								</td>
+							</tr>
+							<tr><td>Step 2</td>
+								<td> <button class="btn btn-info " type="button" id="btn2" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Choose experiment motive</button></td>
+							</tr>
+							<tr><td>Step 3</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn3" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Selection of genes for heterologous expression</button>
+									
+									
+									
+
+								</td>
+							</tr>
+							<tr><td>Step 4</td>
+								<td><button class="btn btn-info " type="button" id="btn4" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" disabled="true" style="cursor: pointer;">
+										Choose suitable plant expression vectors for the expression of target genes</button>
+									
+								</td>
+							</tr>
+							<tr><td>Step 5</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn5" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" disabled="true" style="cursor: pointer;">
+										Ligate the target genes in the plant expression vector</button>
+
+
+								</td>
+							</tr>
+							<tr><td>Step 6</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn6" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" disabled="true" style="cursor: pointer;">
+										Transform explain/plant callus with genetic construct via biolistics(genes gun)</button>
+
+
+									
+
+								</td>
+							</tr>
+							<tr><td>Step 7</td>
+								<td><button class="btn btn-info " type="button" id="btn7" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Select and regenerate plant from transformed plant callus/explant</button></td>
+							</tr>
+							<tr><td>Step 8</td>
+								<td> <button class="btn btn-info " type="button" id="btn8" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Isolate genomic DNA from transformed plant</button></td>
+							</tr>
+							<tr><td>Step 9</td>
+								<td><button class="btn btn-info " type="button" id="btn9" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										PCR using gene specific primers from transformed lant genomic DNA</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 10</td>
+								<td><button class="btn btn-info " type="button" id="btn10" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Transfer the confirmed transgenic plants to soil</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 11</td>
+								<td><button class="btn btn-info " type="button" id="btn11" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Extract PHBs from confirmed transgenic plant grown in soil</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 12</td>
+								<td><button class="btn btn-info " type="button" id="btn12" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Quantify the PHBs by GC-MS</button>
+
+								</td>
+							</tr>
+							
+
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card card-body border border-0" id="card1">
+					<img src="./images/2.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant" id="plantcss">
+					<img src="./images/4.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="" id="expmotive">
+						<img src="./images/6.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA" id="dna">
+						<img src="./images/8.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plasmid" id="plasmid">
+						<img src="./images/10.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plasmid " id="plasmidred">
+						<img src="./images/12.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant callus plate with gene gun " id="plantcallus">
+						</div>
+						</div>
+						</div>
+<div class="row ">
+			<div class="col-md-12">
+				<div class="card card-body border border-0" id="card2">
+					<img src="./images/14.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="New plant "
+						id="newplant">
+
+					<img src="./images/16.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Two genomic DNA strands ".
+						id="twogenomicdna">
+
+					<img src="./images/18.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Agarose gelwith DNA ladder "
+						id="agarosegel">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="card card-body border border-0" id="card3">
+					<img src="./images/20.png" class="img-fluid" id="plantsoil" data-toggle="tooltip" data-placement="bottom" title="Plant in soil">
+
+					<img src="./images/22.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Biopolymers"
+						id="biopolymers">
+					<img src="./images/24.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="GC-MS Instrument and chromatogram"
+						id="gcmcinstrument">
+					
+
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="modal fade" id="shownote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Note</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+
+				</div>
+				<div class="modal-footer">
+
+					<button type="button" class="btn btn-warning" onclick="hidenotemsg();"
+						data-bs-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
 </body>
+
 </html>
