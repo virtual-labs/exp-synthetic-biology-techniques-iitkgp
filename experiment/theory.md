@@ -18,12 +18,15 @@ Synthetic biology in plants for bioplastic manufacturing is an innovative approa
 - A family of biodegradable polyesters naturally produced by bacteria.
 - Synthetic biology allows integration of bacterial PHA biosynthetic pathways into plants.
 - Example: Expression of phaA, phaB, and phaC genes from bacteria in Arabidopsis and Camelina seeds to accumulate PHB (polyhydroxybutyrate).
+
 #### 2.	Polylactic Acid (PLA):
 - PLA is produced from lactic acid monomers, which can be derived from glucose.
 - Engineering plants to produce lactic acid via lactate dehydrogenase, followed by polymerization into PLA.
+
 #### 3.	Starch- and Cellulose-based Plastics:
 - Enhancing starch content in potato, maize, or cassava through metabolic engineering.
 - Starch and cellulose can then be chemically or enzymatically converted into thermoplastics.
+
 #### 4.	Isoprenoid-derived Polymers:
 - Engineering of isoprenoid pathways for rubber-like polymers (polyisoprene).
 - Example: Genetic engineering of Hevea brasiliensis rubber biosynthesis genes in model plants.
