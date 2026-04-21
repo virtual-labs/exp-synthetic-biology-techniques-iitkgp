@@ -52,7 +52,7 @@ A step-by-step procedure is given for the production of PHBs in tobacco plant by
 - Thin sections (60 nm) were stained and viewed under a transmission electron microscope (TEM).
 - PHB granules were observed inside chloroplasts.
 
-10. Stability Check in Next Generation
+#### 10. Stability Check in Next Generation
 - Seeds from transgenic plants were germinated on MS medium with spectinomycin.
 - The presence of green seedlings indicated stable plastid inheritance.
 - Lines showing almost all green seedlings are considered fully homoplasmic.
