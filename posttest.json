@@ -1,0 +1,125 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Orthogonal gene expression systems are advantageous because they:",
+      "answers": {
+        "a": "Use host regulatory elements",
+        "b": "Function independently of host control",
+        "c": "Depend on host metabolism",
+        "d": "Are highly mutable"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. A synthetic pathway that converts fatty acids to hydrocarbons typically requires engineering:",
+      "answers": {
+        "a": "Only the ribosome",
+        "b": "Enzymes in β-oxidation reversal",
+        "c": "CRISPR interference machinery",
+        "d": "Riboswitch control elements"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The term genetic insulation refers to:",
+      "answers": {
+        "a": "Preventing unintended interactions between genetic modules",
+        "b": "Blocking plasmid replication",
+        "c": "Terminating transcription",
+        "d": "Isolating genomic DNA from cytoplasm"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Quorum sensing is often used in synthetic biology for:",
+      "answers": {
+        "a": "DNA repair",
+        "b": "Cell-to-cell communication",
+        "c": "Protein degradation",
+        "d": "Ribosome synthesis"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The ultimate goal of synthetic biology is best summarized as:",
+      "answers": {
+        "a": "Modifying existing genes",
+        "b": "Understanding natural biology",
+        "c": "Designing and constructing novel biological systems with predictable behavior",
+        "d": "Producing transgenic organisms"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. A key difference between genetic engineering and synthetic biology is that synthetic biology",
+      "answers": {
+        "a": "Uses only natural genes",
+        "b": "Focuses on modularity and standardization of biological parts",
+        "c": "Avoids computational tools",
+        "d": "Works only in microbes"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7.Which component acts as the “logic processor” in a synthetic gene circuit?",
+      "answers": {
+        "a": "Reporter gene",
+        "b": "Promoter–transcription factor interactions",
+        "c": "Selectable marker",
+        "d": "Ribosome"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. A chassis plant for synthetic biology should ideally have",
+      "answers": {
+        "a": "Large genome size",
+        "b": "Poor regeneration ability",
+        "c": "Well-characterized genetics and easy transformation",
+        "d": "High mutation rates"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Dynamic control of gene expression is preferred in synthetic systems because it",
+      "answers": {
+        "a": "Eliminates metabolic burden",
+        "b": "Allows fine-tuned, context-dependent responses",
+        "c": "Stops all metabolic activity",
+        "d": "Prevents protein synthesis"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Biosafety in synthetic crop plants mainly focuses on",
+      "answers": {
+        "a": "Increasing mutation frequency",
+        "b": "Preventing unintended gene flow and ecological impact",
+        "c": "Eliminating all transgenes",
+        "d": "Suppressing plant growth"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
